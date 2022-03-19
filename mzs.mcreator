@@ -1,0 +1,43 @@
+{
+  "mod_elements": [
+    {
+      "name": "MikesZombieSurvival",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mikes_zombie_survival"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmikes_zombie_survival": "僵尸生存整合包"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mzs",
+    "modName": "Mike\u0027s Zombie Survival",
+    "version": "1.0.0",
+    "description": "僵尸生存整合包专用附属模组",
+    "author": "mike, MCreator",
+    "websiteURL": "https://mike-brown8.github.io",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "MikeXu made this mod with MCreator",
+    "modElementsPackage": "net.mcreator.mzs",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

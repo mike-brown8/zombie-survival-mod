@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "僵尸生存整合包",
+    "icon": {
+      "value": "Blocks.SKULL#2"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="mzs"
+version="1.0.0"
+displayName="Mike's Zombie Survival"
+credits="MikeXu made this mod with MCreator"
+displayURL="https://mike-brown8.github.io"
+authors="mike, MCreator"
+description='''
+僵尸生存整合包专用附属模组
+'''
+
+[[dependencies.mzs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
