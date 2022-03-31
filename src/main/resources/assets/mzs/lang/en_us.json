@@ -1,3 +1,7 @@
 {
-  "itemGroup.tabmikes_zombie_survival": "僵尸生存整合包"
+  "entity.mzs.zombie_player": "Zombie Player",
+  "itemGroup.tabmikes_zombie_survival": "僵尸生存整合包",
+  "entity.mzs.zombie_soldier": "Zombie Soldier",
+  "item.mzs.zombie_soldier_spawn_egg": "Zombie Soldier Spawn Egg",
+  "item.mzs.zombie_player_spawn_egg": "Zombie Player Spawn Egg"
 }

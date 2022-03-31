@@ -7,18 +7,45 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mikes_zombie_survival"
+    },
+    {
+      "name": "ZombiePlayer",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_player",
+      "path": "~/Zombies"
+    },
+    {
+      "name": "ZombieSoldier",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_soldier",
+      "path": "~/Zombies"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabmikes_zombie_survival": "僵尸生存整合包"
+      "entity.mzs.zombie_player": "Zombie Player",
+      "itemGroup.tabmikes_zombie_survival": "僵尸生存整合包",
+      "entity.mzs.zombie_soldier": "Zombie Soldier",
+      "item.mzs.zombie_soldier_spawn_egg": "Zombie Soldier Spawn Egg",
+      "item.mzs.zombie_player_spawn_egg": "Zombie Player Spawn Egg"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Zombies",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mzs",
