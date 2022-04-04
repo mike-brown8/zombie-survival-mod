@@ -2,7 +2,7 @@
 name: Feature request(功能需求)
 about: 为该项目提供一个主意
 title: ''
-labels: enhancement
+labels: enhancement(增强)
 assignees: mike-brown8
 
 ---
