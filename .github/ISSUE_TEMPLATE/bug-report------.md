@@ -2,7 +2,7 @@
 name: Bug report(问题反馈)
 about: 创建反馈以帮助我们改进
 title: ''
-labels: bug
+labels: bug(故障)
 assignees: mike-brown8
 
 ---
