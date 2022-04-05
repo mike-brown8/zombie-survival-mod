@@ -25,6 +25,62 @@
       "locked_code": false,
       "registry_name": "zombie_soldier",
       "path": "~/Zombies"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "path": "~/Guns"
+    },
+    {
+      "name": "BulletMake",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_make",
+      "path": "~/Guns"
+    },
+    {
+      "name": "ChaoYueGun",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chao_yue_gun",
+      "path": "~/Guns"
+    },
+    {
+      "name": "ZombieSoldierLootItem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_soldier_loot_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Zombies"
     }
   ],
   "variable_elements": [],
@@ -32,13 +88,17 @@
   "language_map": {
     "en_us": {
       "entity.mzs.zombie_player": "Zombie Player",
-      "itemGroup.tabmikes_zombie_survival": "Zombie Survival",
+      "item.mzs.bullet": "Bullet",
+      "item.mzs.chao_yue_gun": "Chao Yue Gun",
+      "itemGroup.tabmikes_zombie_survival": "Zombie Survival Mod",
       "entity.mzs.zombie_soldier": "Zombie Soldier",
       "item.mzs.zombie_soldier_spawn_egg": "Zombie Soldier Spawn Egg",
       "item.mzs.zombie_player_spawn_egg": "Zombie Player Spawn Egg"
     },
     "zh_cn": {
       "entity.mzs.zombie_player": "僵尸玩家",
+      "item.mzs.bullet": "Bullet",
+      "item.mzs.chao_yue_gun": "Chao Yue Gun",
       "itemGroup.tabmikes_zombie_survival": "僵尸生存整合包",
       "entity.mzs.zombie_soldier": "僵尸士兵",
       "item.mzs.zombie_soldier_spawn_egg": "僵尸士兵生成蛋",
@@ -50,6 +110,10 @@
     "children": [
       {
         "name": "Zombies",
+        "children": []
+      },
+      {
+        "name": "Guns",
         "children": []
       }
     ]

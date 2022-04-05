@@ -1,6 +1,8 @@
 {
   "entity.mzs.zombie_player": "Zombie Player",
-  "itemGroup.tabmikes_zombie_survival": "Zombie Survival",
+  "item.mzs.bullet": "Bullet",
+  "item.mzs.chao_yue_gun": "Chao Yue Gun",
+  "itemGroup.tabmikes_zombie_survival": "Zombie Survival Mod",
   "entity.mzs.zombie_soldier": "Zombie Soldier",
   "item.mzs.zombie_soldier_spawn_egg": "Zombie Soldier Spawn Egg",
   "item.mzs.zombie_player_spawn_egg": "Zombie Player Spawn Egg"
