@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/mike-brown8/zombie-survival-mod#style=flat) ![GitHub forks](https://img.shields.io/github/forks/mike-brown8/zombie-survival-mod) ![GitHub Repo stars](https://img.shields.io/github/stars/mike-brown8/zombie-survival-mod)![GitHub pull requests](https://img.shields.io/github/issues-pr/mike-brown8/zombie-survival-mod)
+![GitHub](https://img.shields.io/github/license/mike-brown8/zombie-survival-mod#style=flat) ![GitHub forks](https://img.shields.io/github/forks/mike-brown8/zombie-survival-mod) ![GitHub Repo stars](https://img.shields.io/github/stars/mike-brown8/zombie-survival-mod) ![GitHub pull requests](https://img.shields.io/github/issues-pr/mike-brown8/zombie-survival-mod)
 
 僵尸生存整合包专用僵尸生存MOD
 
