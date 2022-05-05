@@ -23,6 +23,7 @@ body:
     description: 游戏/更新器崩溃了吗？
     options:
       - label: "Yes"
+  id: IsCrashed
 
 - type: dropdown
   attributes:
@@ -40,6 +41,7 @@ body:
       - 其他
   validations:
     required: true
+  id: Place
 
 - type: textarea
   attributes:
