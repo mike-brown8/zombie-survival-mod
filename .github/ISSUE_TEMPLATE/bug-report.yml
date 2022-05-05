@@ -7,6 +7,7 @@ body:
   attributes:
     value: |
       请在新建一个问题之前先 [查找已有Issue](https://github.com/mike-brown8/zombie-survival-mod/issues) ！
+  id: SearchFirstText
 - type: input
   attributes:
     label: 整合包版本号
@@ -16,6 +17,7 @@ body:
       在更新工具打开时显示的当前版本处查看
   validations:
     required: true
+  id: VerisonCode
 
 - type: checkboxes
   attributes:
@@ -50,6 +52,7 @@ body:
     placeholder: 告诉我们如何重现该问题。
   validations:
     required: true
+  id: HowTo
 
 - type: textarea
   attributes:
@@ -57,6 +60,7 @@ body:
     placeholder: 该事件本应如何发生？
   validations:
     required: false
+  id: TrueActive
 
 - type: textarea
   attributes:
@@ -64,6 +68,7 @@ body:
     placeholder: 但是却发生了什么？
   validations:
     required: false
+  id: NowAction
 
 - type: textarea
   attributes:
@@ -79,3 +84,4 @@ body:
       Windows 11 单语言版
   validations:
     required: true
+  id: SysInfo
